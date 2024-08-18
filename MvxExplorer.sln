@@ -1,0 +1,53 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvxExplorer.AppHost", "MvxExplorer.AppHost\MvxExplorer.AppHost.csproj", "{AB813521-F0DA-48E7-A4DD-F388C9267A92}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvxExplorer.ServiceDefaults", "MvxExplorer.ServiceDefaults\MvxExplorer.ServiceDefaults.csproj", "{0559FE83-A1FC-4D78-9928-67BCBEF9C387}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvxExplorer.ApiService", "MvxExplorer.ApiService\MvxExplorer.ApiService.csproj", "{C96015B4-BFC4-46F9-B863-9220FFF96AFA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvxExplorer.Web", "MvxExplorer.Web\MvxExplorer.Web.csproj", "{44F50678-2119-4159-884C-6B249F8BECC5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvxExplorer.Tests", "MvxExplorer.Tests\MvxExplorer.Tests.csproj", "{976E551E-7D57-4D19-BFF2-6CEB718BC88D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B698CFBA-2C64-46E0-87D9-24AEDC4DF39F}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB813521-F0DA-48E7-A4DD-F388C9267A92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB813521-F0DA-48E7-A4DD-F388C9267A92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB813521-F0DA-48E7-A4DD-F388C9267A92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB813521-F0DA-48E7-A4DD-F388C9267A92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0559FE83-A1FC-4D78-9928-67BCBEF9C387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0559FE83-A1FC-4D78-9928-67BCBEF9C387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0559FE83-A1FC-4D78-9928-67BCBEF9C387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0559FE83-A1FC-4D78-9928-67BCBEF9C387}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C96015B4-BFC4-46F9-B863-9220FFF96AFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C96015B4-BFC4-46F9-B863-9220FFF96AFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C96015B4-BFC4-46F9-B863-9220FFF96AFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C96015B4-BFC4-46F9-B863-9220FFF96AFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44F50678-2119-4159-884C-6B249F8BECC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44F50678-2119-4159-884C-6B249F8BECC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44F50678-2119-4159-884C-6B249F8BECC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44F50678-2119-4159-884C-6B249F8BECC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{976E551E-7D57-4D19-BFF2-6CEB718BC88D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{976E551E-7D57-4D19-BFF2-6CEB718BC88D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{976E551E-7D57-4D19-BFF2-6CEB718BC88D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{976E551E-7D57-4D19-BFF2-6CEB718BC88D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FEDCBFBB-924E-4D5F-83A7-83F9FB3BA5D9}
+	EndGlobalSection
+EndGlobal
